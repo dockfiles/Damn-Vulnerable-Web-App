@@ -29,10 +29,15 @@ cd dvwa
 docker compose up -d
 ```
 
-- Go to `localhost:80` on your web browser and you should see the login page.
+- Go to `http://localhost:80` in your web browser and you should see the login page.
+
+![image](https://user-images.githubusercontent.com/110657529/202919959-a4fc623f-2801-49f6-8bc1-52e4deb12e6c.png)
+
 
 ### 3. Login Credentials
 
 The default login credentials for DVWA are:
-username: admin
-password: password
+
+username: `admin`
+
+password: `password`
