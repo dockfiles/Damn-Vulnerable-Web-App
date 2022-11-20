@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  dvwa:
+    container_name: "dvwa"
+    image: "vulnerables/web-dvwa"
+    volumes:
+      - ./.config/php.ini:/etc/php/7.0/apache2/php.ini
+      - ./.config/config.inc.php:/var/www/html/config/config.inc.php
+    ports:
+      - 80:80
